@@ -1,0 +1,11 @@
+.turn-arrow{
+    width: 110px;
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+    transition: padding-left ease-in-out 400ms;  
+}
+
+.turn-arrow.-active{
+    padding-left: 175px;
+}
