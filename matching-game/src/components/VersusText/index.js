@@ -1,8 +1,8 @@
 import './style.css';
 
-function VersusText(){
+function VersusText(content = 'vs'){
     return/*html*/`
-        <div class='versus-text'>vs</div>
+        <div class='versus-text'>${content}</div>
     `
 }
 
